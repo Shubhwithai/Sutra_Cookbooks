@@ -1,4 +1,4 @@
-# SUTRA™ - Powerful Multilingual AI Model
+# SUTRA Cookbooks
 
 <p align="center">
   <img src="https://www.two.ai/assets/logo-TWO.svg" alt="TWO AI Logo" width="200"/>
@@ -9,9 +9,44 @@
 [![Languages](https://img.shields.io/badge/Languages-50%2B-orange.svg)](https://www.two.ai/sutra)
 [![Twitter Follow](https://img.shields.io/twitter/follow/two_platforms?style=social)](https://twitter.com/two_platforms)
 
-## Overview
+## Repository Overview
 
-SUTRA is a family of large multi-lingual language models (LMLMs) developed by [TWO AI](https://www.two.ai). SUTRA's dual-transformer architecture extends the power of both MoE (Mixture of Experts) and Dense AI language model approaches, delivering cost-efficient multilingual capabilities across 50+ languages.
+Welcome to the SUTRA Cookbooks repository! This repository contains code examples, tutorials, documentation, and resources for working with SUTRA, a family of large multi-lingual language models (LMLMs) developed by [TWO AI](https://www.two.ai).
+
+## Repository Structure
+
+```
+Sutra_Cookbooks/
+├── examples/               # Example applications and use cases
+│   ├── chatbots/           # Chatbot implementation examples
+│   ├── text_generation/    # Text generation examples
+│   ├── multilingual/       # Examples showcasing multilingual capabilities
+│   ├── search/             # Search implementation examples
+│   └── fine_tuning/        # Fine-tuning examples and guides
+│
+├── code_samples/           # Code samples in various programming languages
+│   ├── python/             # Python code samples
+│   ├── javascript/         # JavaScript/Node.js code samples
+│   ├── java/               # Java code samples
+│   ├── go/                 # Go language code samples
+│   └── ruby/               # Ruby code samples
+│
+├── docs/                   # Documentation resources
+│   ├── api_reference/      # API documentation and references
+│   ├── tutorials/          # Step-by-step tutorials
+│   ├── model_cards/        # Model specifications and capabilities
+│   └── best_practices/     # Guides on best practices
+│
+├── benchmarks/             # Benchmarking tools and results
+├── notebooks/              # Jupyter notebooks for interactive examples
+├── datasets/               # Sample datasets for demonstrations
+├── integrations/           # Integration examples with other platforms/services
+└── utils/                  # Utility functions and helper scripts
+```
+
+## About SUTRA
+
+SUTRA is a family of large multi-lingual language models (LMLMs) developed by TWO AI. SUTRA's dual-transformer architecture extends the power of both MoE (Mixture of Experts) and Dense AI language model approaches, delivering cost-efficient multilingual capabilities across 50+ languages.
 
 SUTRA powers scalable AI applications for:
 - Conversation
@@ -26,7 +61,7 @@ It ensures high-performance across diverse languages, domains, and applications.
 
 The SUTRA API uses API keys for authentication. Get your API key by visiting [TWO AI's SUTRA API page](https://www.two.ai/sutra/api).
 
-⚠️ **Security Note:** Keep your API key secure! Never expose it in client-side code or public repositories.
+**Security Note:** Keep your API key secure! Never expose it in client-side code or public repositories.
 
 ### API Endpoint
 
@@ -34,111 +69,32 @@ The SUTRA API uses API keys for authentication. Get your API key by visiting [TW
 https://api.two.ai/v2/chat/completions
 ```
 
-### Sample Code
+## Getting Started
 
-#### cURL
+1. **Explore the examples**: Browse the `examples/` directory to see how SUTRA can be implemented for various use cases
+2. **Review the documentation**: Check the `docs/` directory for detailed guides and references
+3. **Try the code samples**: Find language-specific implementations in the `code_samples/` directory
+4. **Run the notebooks**: Explore interactive demonstrations in the `notebooks/` directory
 
-```bash
-curl -X POST "https://api.two.ai/v2/chat/completions" \
-  -H "Authorization: Bearer $SUTRA_API_KEY" \
-  -H "Content-Type: application/json" \
-  -H "Accept text/event-stream" \
-  -d '{
-  "model": "sutra-v2",
-  "messages": [
-    {"role": "user", "content": "मुझे मंगल ग्रह के बारे में 5 पैराग्राफ दीजिए"}
-  ]
-}'
-```
+## Contributing
 
-#### Python
-
-```python
-import os
-from openai import OpenAI
-
-url = 'https://api.two.ai/v2'
-
-client = OpenAI(base_url=url,
-                api_key=os.environ.get("SUTRA_API_KEY"))
-
-stream = client.chat.completions.create(
-    model='sutra-v2',
-    messages=[{"role": "user", "content": "मुझे मंगल ग्रह के बारे में 5 पैराग्राफ दीजिए"}],
-    max_tokens=1024,
-    temperature=0,
-    stream=True
-)
-
-for chunk in stream:
-    if len(chunk.choices) > 0:
-        content = chunk.choices[0].delta.content
-        finish_reason = chunk.choices[0].finish_reason
-        if content and finish_reason is None:
-            print(content, end='', flush=True)
-```
-
-#### JavaScript/Node.js
-
-```javascript
-import { OpenAI } from 'openai';
-
-async function testSutra() {
-    const url = 'https://api.two.ai/v2';
-
-    const client = new OpenAI({
-        apiKey: process.env.SUTRA_API_KEY,
-        baseURL: url,
-    })
-
-    const stream = await client.beta.chat.completions.stream(
-        {
-            model: 'sutra-v2',
-            messages: [{ role: 'user', content: 'मुझे मंगल ग्रह के बारे में 5 पैराग्राफ दीजिए' }],
-        }
-    ); 
-
-    for await (const chunk of stream) {
-        if (chunk.choices.length > 0) {
-            const content = chunk.choices[0].delta?.content;
-            const finishReason = chunk.choices[0].finish_reason;
-            if (content && finishReason === null) {
-                process.stdout.write(content);
-            }
-        }
-    }
-}
-
-(async () => { 
-    await testSutra(); 
-    process.exit(0); 
-})();
-```
-
-## Features
-
-- **Multilingual Support**: Built-in support for 50+ languages
-- **OpenAI-compatible API**: Easy integration with existing OpenAI-based applications
-- **Dual-transformer Architecture**: Combines the power of MoE and Dense AI approaches
-- **High Performance**: Optimized for various use cases and domains
-- **Streaming Support**: Real-time response streaming capabilities
+We welcome contributions to the SUTRA Cookbooks! If you have examples, improvements, or bug fixes, please feel free to submit a pull request.
 
 ## Resources
 
-- [API Reference](https://docs.two.ai/version-2/docs/get-started-with-sutra)
+- [Official Documentation](https://docs.two.ai/version-2/docs/get-started-with-sutra)
 - [SUTRA Tokenizer on Hugging Face](https://huggingface.co/spaces/TWO/sutra-tokenizer-comparison)
 - [Sample Applications](https://github.com/sutra-dev)
 
-## Getting Support
+## Support
 
 - Follow [@two_platforms](https://twitter.com/two_platforms) on Twitter for updates
 - Visit [TWO AI's website](https://www.two.ai) for more information
 
-## Legal
+## License
 
-- [Privacy Policy](https://two.ai/legal/privacy)
-- [Terms of Service](https://two.ai/legal/terms)
+Please see the LICENSE file for details.
 
 ---
 
-© 2025 TWO AI | All Rights Reserved
+ 2025 TWO AI | All Rights Reserved
