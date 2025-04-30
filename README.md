@@ -1,7 +1,7 @@
 # SUTRA™ - Powerful Multilingual AI Model
 
 <p align="center">
-  <img src="https://github.com/Shubhwithai/Sutra_Cookbooks/blob/main/images/two_AI_Logo.png" alt="TWO AI Logo" width="200"/>
+  <img src="https://github.com/Shubhwithai/Sutra_Cookbooks/blob/main/images/rfqbgn5s_400x400.jpg" alt="TWO AI Logo" width="200"/>
 </p>
 
 [![API Status](https://img.shields.io/badge/API-Active-success.svg)](https://www.two.ai/sutra/api)
