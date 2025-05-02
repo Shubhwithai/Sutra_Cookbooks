@@ -6,16 +6,8 @@ This directory contains examples and guides for integrating Sutra with other too
 
 - Third-party API integrations
 - Database connectors
-- Cloud service integrations
 - Framework compatibility examples
 
-## Integration Categories
-
-- Data sources and sinks
-- Authentication systems
-- Messaging platforms
-- Analytics tools
-- Development environments
 
 ## Getting Started
 
