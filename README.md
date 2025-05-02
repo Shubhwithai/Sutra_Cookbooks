@@ -20,6 +20,14 @@ SUTRA powers scalable AI applications for:
 
 It ensures high-performance across diverse languages, domains, and applications.
 
+## Sutra Starter Guide
+
+Get started quickly with SUTRA using our comprehensive [Starter Guide Notebook](getting-started/Sutra_Starter_Guide.ipynb) that covers:
+- Basic usage and setup
+- Model capabilities and features
+- Common use cases and examples
+- Best practices for optimal results
+
 ## Quick Start
 
 ### Authentication
@@ -111,17 +119,6 @@ async function testSutra() {
 - **High Performance**: Optimized for various use cases and domains
 - **Streaming Support**: Real-time response streaming capabilities
 
-## Resources
-
-- [API Reference](https://docs.two.ai/version-2/docs/get-started-with-sutra)
-- [SUTRA Tokenizer on Hugging Face](https://huggingface.co/spaces/TWO/sutra-tokenizer-comparison)
-- [Sample Applications](https://github.com/sutra-dev)
-
-## Getting Support
-
-- Follow [@two_platforms](https://twitter.com/two_platforms) on Twitter for updates
-- Visit [TWO AI's website](https://www.two.ai) for more information
-
 ## Repository Structure
 
 This repository is organized into the following sections:
@@ -135,6 +132,18 @@ This repository is organized into the following sections:
 7. **images** - Images used throughout the documentation
 
 Each directory contains its own README with more detailed information.
+
+## Resources
+
+- [API Reference](https://docs.two.ai/version-2/docs/get-started-with-sutra)
+- [SUTRA Tokenizer on Hugging Face](https://huggingface.co/spaces/TWO/sutra-tokenizer-comparison)
+- [Sample Applications](https://github.com/sutra-dev)
+
+## Getting Support
+
+- Follow [@two_platforms](https://twitter.com/two_platforms) on Twitter for updates
+- Visit [TWO AI's website](https://www.two.ai) for more information
+
 
 ## Legal
 
