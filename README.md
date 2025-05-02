@@ -122,6 +122,20 @@ async function testSutra() {
 - Follow [@two_platforms](https://twitter.com/two_platforms) on Twitter for updates
 - Visit [TWO AI's website](https://www.two.ai) for more information
 
+## Repository Structure
+
+This repository is organized into the following sections:
+
+1. **getting-started** - Introductory materials and examples to help you get started with Sutra
+2. **integrations** - Examples and guides for integrating Sutra with other tools and services
+3. **starter-apps** - Ready-to-use starter applications built with Sutra
+4. **agents** - Examples and tutorials for building and deploying agents using Sutra
+5. **usecases** - Real-world use case implementations across various industries
+6. **rag** - Examples and best practices for implementing Retrieval-Augmented Generation
+7. **images** - Images used throughout the documentation
+
+Each directory contains its own README with more detailed information.
+
 ## Legal
 
 - [Privacy Policy](https://two.ai/legal/privacy)
