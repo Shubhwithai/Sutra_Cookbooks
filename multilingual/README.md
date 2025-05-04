@@ -10,7 +10,23 @@ This directory contains examples and guides demonstrating SUTRA's powerful multi
 
 ## Contents
 
-- [Using Regional Languages with SUTRA](Using_Regional_Languages_with_Sutra.ipynb) - A comprehensive notebook demonstrating SUTRA's capabilities across various Indian languages (Hindi, Tamil, Bengali, Telugu, Marathi, Punjabi) and international languages (Arabic, Chinese, Spanish, Russian, Swahili).
+This folder is intended for future multilingual examples and resources. Currently, multilingual examples can be found in other sections of the repository:
+
+- [Using Regional Languages with SUTRA](../getting-started/Using_Regional_Languages_with_Sutra.ipynb) - A comprehensive notebook demonstrating SUTRA's capabilities across various Indian languages (Hindi, Tamil, Bengali, Telugu, Marathi, Punjabi) and international languages (Arabic, Chinese, Spanish, Russian, Swahili).
+
+Additionally, there is a markdown version of the notebook available in the main repository:
+
+- [Using Regional Languages with SUTRA (Markdown)](../../Using_Regional_Languages_with_Sutra.md) - Contains the same content as the notebook but in markdown format with a Colab link for easy access.
+
+## Future Plans
+
+This folder will be expanded with additional multilingual examples and resources, including:
+
+1. Language-specific fine-tuning examples
+2. Specialized multilingual RAG implementations
+3. Cross-lingual transfer learning demonstrations
+4. Industry-specific multilingual use cases
+5. Multilingual chatbot examples
 
 ## Key Multilingual Features
 
@@ -50,10 +66,23 @@ When working with SUTRA for multilingual applications:
 - [Tokenizer Comparison Tool](https://huggingface.co/spaces/TWO/sutra-tokenizer-comparison)
 - [Main SUTRA Cookbooks Repository](https://github.com/Shubhwithai/Sutra_Cookbooks)
 
+## Repository Structure
+
+As mentioned in the main README, the Sutra Cookbooks repository is organized into the following sections:
+
+1. **getting-started** - Introductory materials and examples including the multilingual notebook
+2. **integrations** - Integration guides with other tools
+3. **starter-apps** - Ready-to-use application templates
+4. **agents** - Agent building examples and tutorials
+5. **usecases** - Real-world use case implementations
+6. **rag** - Retrieval-Augmented Generation examples
+7. **images** - Documentation images
+8. **multilingual** - This folder, dedicated to multilingual capabilities (under development)
+
 ## Contributing
 
 We welcome contributions of additional multilingual examples and use cases! Please follow the repository's contribution guidelines when submitting new content.
 
 ---
 
-© 2025 TWO AI | All Rights Reserved
+ 2025 TWO AI | All Rights Reserved
