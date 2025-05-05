@@ -22,11 +22,7 @@ It ensures high-performance across diverse languages, domains, and applications.
 
 ## Sutra Starter Guide
 
-Get started quickly with SUTRA using our comprehensive [Starter Guide Notebook](getting-started/Sutra_Starter_Guide.ipynb) that covers:
-- Basic usage and setup
-- Model capabilities and features
-- Common use cases and examples
-- Best practices for optimal results
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j7B8mDIU8KMZ_IB-oaL_qLqXmWYYh0Xu)
 
 ## Quick Start
 
