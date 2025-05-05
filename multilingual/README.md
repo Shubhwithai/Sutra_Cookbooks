@@ -1,9 +1,5 @@
 # Multilingual Capabilities with SUTRA™
 
-<p align="center">
-  <img src="../images/rfqbgn5s_400x400.jpg" alt="TWO AI Logo" width="200"/>
-</p>
-
 ## Overview
 
 This directory contains examples and guides demonstrating SUTRA's powerful multilingual capabilities across 50+ languages. SUTRA's dual-transformer architecture is specifically designed to excel at multilingual tasks, making it an ideal choice for global applications requiring language understanding and generation across diverse linguistic contexts.
