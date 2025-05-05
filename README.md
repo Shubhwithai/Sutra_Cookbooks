@@ -1,5 +1,10 @@
 # SUTRA™ - Powerful Multilingual AI Model
 
+<div align="right">
+  <a href="README.md">English</a> |
+  <a href="README.hi.md">हिंदी (Hindi)</a>
+</div>
+
 <p align="center">
   <img src="https://github.com/Shubhwithai/Sutra_Cookbooks/blob/main/images/logo-.png" alt="TWO AI Logo" width="400"/>
 </p>
@@ -19,6 +24,17 @@ SUTRA powers scalable AI applications for:
 - Advanced reasoning
 
 It ensures high-performance across diverse languages, domains, and applications.
+
+## What You'll Find in This Cookbook
+
+| Section | Description |
+|---------|-------------|
+| **Getting Started** | Introductory tutorials, basic usage patterns, and setup guides |
+| **Multilingual Examples** | Code samples showcasing SUTRA's capabilities across 50+ languages |
+| **Integration Guides** | Instructions for integrating SUTRA with popular frameworks and tools |
+| **RAG Implementations** | Retrieval-Augmented Generation examples for knowledge-intensive tasks |
+| **Agent Building** | Tutorials on creating conversational agents and assistants |
+| **Use Cases** | Industry-specific applications and solutions |
 
 ## Sutra Starter Guide
 
@@ -142,45 +158,15 @@ Each directory contains its own README with more detailed information.
 
 ## Contributing
 
-We welcome contributions to the SUTRA Cookbooks repository! Here's how you can contribute:
+We welcome contributions to the SUTRA Cookbooks repository! To contribute:
 
-### How to Contribute
+1. Fork and clone the repository
+2. Create a new branch for your changes
+3. Make your changes following our documentation standards
+4. Test your examples thoroughly
+5. Submit a pull request
 
-1. **Fork the Repository**: Start by forking this repository to your GitHub account.
-
-2. **Clone the Repository**: Clone your forked repository to your local machine.
-   ```bash
-   git clone https://github.com/your-username/Sutra_Cookbooks.git
-   ```
-
-3. **Create a Branch**: Create a new branch for your contribution.
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-4. **Make Your Changes**: Add or modify content according to our guidelines.
-
-5. **Test Your Changes**: Ensure your code examples work as expected and notebooks run without errors.
-
-6. **Submit a Pull Request**: Push your changes to your fork and submit a pull request to the main repository.
-
-### Contribution Guidelines
-
-- **Documentation**: All code examples should be well-documented with clear explanations.
-- **Notebooks**: Jupyter notebooks should include markdown cells explaining the purpose and functionality of code cells.
-- **Code Quality**: Ensure your code follows best practices and is properly formatted.
-- **Examples**: Include practical examples that demonstrate real-world applications of SUTRA.
-- **Languages**: We encourage examples in multiple languages to showcase SUTRA's multilingual capabilities.
-
-### Areas for Contribution
-
-- New use cases and applications
-- Integration examples with other tools and frameworks
-- Improvements to existing examples
-- Documentation enhancements
-- Bug fixes and optimizations
-
-For major changes, please open an issue first to discuss what you would like to change.
+For major changes, please open an issue first to discuss your ideas.
 
 ## Legal
 
