@@ -27,7 +27,6 @@ SUTRA is a family of large multi-lingual language models (LMLMs) developed by [T
 | **Integration Guides** | Instructions for integrating SUTRA with popular frameworks and tools |
 | **Chat with Data** | Retrieval-Augmented Generation examples for knowledge-intensive tasks |
 | **Agent Building** | Tutorials on creating conversational agents and assistants |
-| **Use Cases** | Industry-specific applications and solutions |
 | **Starter Apps** | Ready-to-use application templates to jumpstart your development |
 | **Examples** | Additional code examples and implementations |
 
