@@ -29,12 +29,14 @@ It ensures high-performance across diverse languages, domains, and applications.
 
 | Section | Description |
 |---------|-------------|
-| **Getting Started** | Introductory tutorials, basic usage patterns, and setup guides |
-| **Multilingual Examples** | Code samples showcasing SUTRA's capabilities across 50+ languages |
+| **Get Started** | Introductory tutorials, basic usage patterns, and setup guides |
+| **Multilingual** | Code samples showcasing SUTRA's capabilities across 50+ languages |
 | **Integration Guides** | Instructions for integrating SUTRA with popular frameworks and tools |
-| **RAG Implementations** | Retrieval-Augmented Generation examples for knowledge-intensive tasks |
+| **Chat with Data** | Retrieval-Augmented Generation examples for knowledge-intensive tasks |
 | **Agent Building** | Tutorials on creating conversational agents and assistants |
 | **Use Cases** | Industry-specific applications and solutions |
+| **Starter Apps** | Ready-to-use application templates to jumpstart your development |
+| **Examples** | Additional code examples and implementations |
 
 ## Sutra Starter Guide
 
@@ -135,13 +137,15 @@ async function testSutra() {
 
 This repository is organized into the following sections:
 
-1. **getting-started** - Introductory materials and examples to help you get started with Sutra
+1. **get-started** - Introductory materials and examples to help you get started with Sutra
 2. **integrations** - Examples and guides for integrating Sutra with other tools and services
 3. **starter-apps** - Ready-to-use starter applications built with Sutra
 4. **agents** - Examples and tutorials for building and deploying agents using Sutra
 5. **usecases** - Real-world use case implementations across various industries
-6. **rag** - Examples and best practices for implementing Retrieval-Augmented Generation
-7. **images** - Images used throughout the documentation
+6. **chat-with-data** - Examples and best practices for implementing Retrieval-Augmented Generation
+7. **multilingual** - Examples showcasing Sutra's capabilities across multiple languages
+8. **examples** - Additional code examples and use cases
+9. **images** - Images used throughout the documentation
 
 Each directory contains its own README with more detailed information.
 
