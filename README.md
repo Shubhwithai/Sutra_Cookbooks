@@ -24,11 +24,9 @@ It ensures high-performance across diverse languages, domains, and applications.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j7B8mDIU8KMZ_IB-oaL_qLqXmWYYh0Xu)
 
-## Quick Start
+## Get Your API Key
 
-### Authentication
-
-The SUTRA API uses API keys for authentication. Get your API key by visiting [TWO AI's SUTRA API page](https://www.two.ai/sutra/api).
+Get your API key by visiting [TWO AI's SUTRA API page](https://www.two.ai/sutra/api).
 
 ⚠️ **Security Note:** Keep your API key secure! Never expose it in client-side code or public repositories.
 
@@ -37,6 +35,8 @@ The SUTRA API uses API keys for authentication. Get your API key by visiting [TW
 ```
 https://api.two.ai/v2/chat/completions
 ```
+
+## Quick Start
 
 ### Sample Code
 
@@ -140,6 +140,47 @@ Each directory contains its own README with more detailed information.
 - Follow [@two_platforms](https://twitter.com/two_platforms) on Twitter for updates
 - Visit [TWO AI's website](https://www.two.ai) for more information
 
+## Contributing
+
+We welcome contributions to the SUTRA Cookbooks repository! Here's how you can contribute:
+
+### How to Contribute
+
+1. **Fork the Repository**: Start by forking this repository to your GitHub account.
+
+2. **Clone the Repository**: Clone your forked repository to your local machine.
+   ```bash
+   git clone https://github.com/your-username/Sutra_Cookbooks.git
+   ```
+
+3. **Create a Branch**: Create a new branch for your contribution.
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+4. **Make Your Changes**: Add or modify content according to our guidelines.
+
+5. **Test Your Changes**: Ensure your code examples work as expected and notebooks run without errors.
+
+6. **Submit a Pull Request**: Push your changes to your fork and submit a pull request to the main repository.
+
+### Contribution Guidelines
+
+- **Documentation**: All code examples should be well-documented with clear explanations.
+- **Notebooks**: Jupyter notebooks should include markdown cells explaining the purpose and functionality of code cells.
+- **Code Quality**: Ensure your code follows best practices and is properly formatted.
+- **Examples**: Include practical examples that demonstrate real-world applications of SUTRA.
+- **Languages**: We encourage examples in multiple languages to showcase SUTRA's multilingual capabilities.
+
+### Areas for Contribution
+
+- New use cases and applications
+- Integration examples with other tools and frameworks
+- Improvements to existing examples
+- Documentation enhancements
+- Bug fixes and optimizations
+
+For major changes, please open an issue first to discuss what you would like to change.
 
 ## Legal
 
