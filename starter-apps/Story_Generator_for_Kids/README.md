@@ -22,8 +22,8 @@ A Streamlit application that generates engaging, age-appropriate stories for chi
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/story-generator-kids.git
-   cd story-generator-kids
+   git clone https://github.com/Shubhwithai/Sutra_Cookbooks.git
+   cd Sutra_Cookbooks/starter-apps/Story_Generator_for_Kids
    ```
 
 2. Install dependencies:
