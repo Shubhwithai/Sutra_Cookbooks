@@ -18,13 +18,6 @@
 
 SUTRA is a family of large multi-lingual language models (LMLMs) developed by [TWO AI](https://www.two.ai). SUTRA's dual-transformer architecture extends the power of both MoE (Mixture of Experts) and Dense AI language model approaches, delivering cost-efficient multilingual capabilities across 50+ languages.
 
-SUTRA powers scalable AI applications for:
-- Conversation
-- Search
-- Advanced reasoning
-
-It ensures high-performance across diverse languages, domains, and applications.
-
 ## What You'll Find in This Cookbook
 
 | Section | Description |
@@ -132,22 +125,6 @@ async function testSutra() {
 - **Dual-transformer Architecture**: Combines the power of MoE and Dense AI approaches
 - **High Performance**: Optimized for various use cases and domains
 - **Streaming Support**: Real-time response streaming capabilities
-
-## Repository Structure
-
-This repository is organized into the following sections:
-
-1. **get-started** - Introductory materials and examples to help you get started with Sutra
-2. **integrations** - Examples and guides for integrating Sutra with other tools and services
-3. **starter-apps** - Ready-to-use starter applications built with Sutra
-4. **agents** - Examples and tutorials for building and deploying agents using Sutra
-5. **usecases** - Real-world use case implementations across various industries
-6. **chat-with-data** - Examples and best practices for implementing Retrieval-Augmented Generation
-7. **multilingual** - Examples showcasing Sutra's capabilities across multiple languages
-8. **examples** - Additional code examples and use cases
-9. **images** - Images used throughout the documentation
-
-Each directory contains its own README with more detailed information.
 
 ## Resources
 
