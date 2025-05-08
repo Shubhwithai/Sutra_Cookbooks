@@ -1,4 +1,3 @@
-# SUTRA™ - Powerful Multilingual AI Model
 
 <div align="right">
   <a href="README.md">English</a> |
