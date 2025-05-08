@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/Shubhwithai/Sutra_Cookbooks/blob/main/images/SUTRA%20Cookbooks.svg" alt="SUTRA Banner" width="800"/>
+  <img src="https://github.com/Shubhwithai/Sutra_Cookbooks/blob/main/images/SUTRA%20Cookbooks%20(1).svg" alt="SUTRA Banner" width="800"/>
 </p>
 
 <p align="center">
